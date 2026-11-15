@@ -3,6 +3,8 @@ push:
 jobs:
 hello:
 runs-on: ubuntu-latest
-steps:- name: Checkout
-uses: actions/checkout@v4- name: Hello
-run: echo "Hello GitHub Actions
+steps:
+- name: Checkout
+uses: actions/checkout@v4
+- name: Hello
+run: echo "Hello GitHub Actions"
